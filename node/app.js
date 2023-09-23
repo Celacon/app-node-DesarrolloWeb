@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
     res.send('HOLA MUNDO')
 })*/
 
-app.listen(8000, () => {
-    console.log('Server UP running in http://localhost:8000/')
+app.listen(8000,'172.26.12.27', () => {
+    console.log('Server UP running in http://172.26.12.27:8000/')
 })
   
